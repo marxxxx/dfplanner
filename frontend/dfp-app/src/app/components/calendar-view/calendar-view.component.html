@@ -8,6 +8,13 @@
     </div>
   </div>
 
+  <div *ngIf="!loading && groupedEventKeys.length === 0" class="empty-state">
+    <mat-icon class="empty-state-icon">event_note</mat-icon>
+    <p class="empty-state-message">
+      No events selected. Please go to the Events view and select the events you would like to attend. They will appear here in chronological order.
+    </p>
+  </div>
+
   <div *ngFor="let day of groupedEventKeys">
     <h3 class="day-heading">{{ day }}</h3>
 

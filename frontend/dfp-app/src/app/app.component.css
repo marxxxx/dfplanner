@@ -39,3 +39,9 @@ mat-toolbar {
 .view-toggle {
   margin-right: 8px;
 }
+
+@media (max-width: 600px) {
+  .view-label {
+    display: none;
+  }
+}

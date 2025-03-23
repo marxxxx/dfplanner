@@ -6,11 +6,11 @@ import { map } from 'rxjs/operators';
 import { MatListModule } from '@angular/material/list';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { CommonModule } from '@angular/common';
-
+import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   selector: 'app-calendar-view',
-  imports: [CommonModule, MatListModule, MatProgressSpinnerModule],
+  imports: [CommonModule, MatListModule, MatProgressSpinnerModule, MatIconModule],
   templateUrl: './calendar-view.component.html',
   styleUrls: ['./calendar-view.component.css']
 })
