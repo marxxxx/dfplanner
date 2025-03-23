@@ -1,0 +1,24 @@
+<mat-toolbar color="primary">
+  <span class="app-title">Donaufestival Planner</span>
+  <span class="spacer"></span>
+  <mat-button-toggle-group
+  [(ngModel)]="showCalendar"
+  aria-label="Toggle view"
+  class="view-toggle"
+  appearance="legacy"
+>
+  <mat-button-toggle [value]="false">Event View</mat-button-toggle>
+  <mat-button-toggle [value]="true">My Calendar</mat-button-toggle>
+</mat-button-toggle-group>
+</mat-toolbar>
+
+<div class="app-intro" *ngIf="!showCalendar">
+  <h1>Donaufestival Planner</h1>
+  <p>
+    This app helps you explore and select events from the Donaufestival 2025 lineup.
+    You can bookmark your favorite events, view details, and keep your selection persistent across sessions.
+  </p>
+</div>
+
+<app-event-list *ngIf="!showCalendar"></app-event-list>
+<app-calendar-view *ngIf="showCalendar"></app-calendar-view>

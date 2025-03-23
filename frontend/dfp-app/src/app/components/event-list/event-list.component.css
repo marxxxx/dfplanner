@@ -1,0 +1,77 @@
+.event-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 16px;
+  padding: 16px;
+}
+
+.event-card {
+  position: relative;
+}
+
+.event-checkbox {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.thumbnail-wrapper {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.thumbnail {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@keyframes shimmer {
+  0% {
+    background-color: #e0f7fa;
+  }
+  50% {
+    background-color: #b2ebf2;
+  }
+  100% {
+    background-color: #e0f7fa;
+  }
+}
+
+.event-card.shimmer {
+  animation: shimmer 0.8s ease-in-out;
+}
+
+.event-card.selected {
+  border: 2px solid #3f51b5;
+  background-color: #f0f4ff;
+}
+
+.day-selector {
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.spinner-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  text-align: center;
+}
+
+.spinner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.spinner-label {
+  font-size: 16px;
+  color: #555;
+}

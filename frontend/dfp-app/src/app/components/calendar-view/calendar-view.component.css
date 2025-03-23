@@ -1,0 +1,79 @@
+.calendar-view {
+  padding: 24px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.day-heading {
+  margin-top: 32px;
+  margin-bottom: 8px;
+  color: #3f51b5;
+  font-size: 22px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 4px;
+}
+
+mat-list {
+  width: 100%;
+}
+
+.event-list-item {
+  align-items: flex-start;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.event-thumb {
+  width: 48px;
+  height: 48px;
+  border-radius: 4px;
+  object-fit: cover;
+  margin-top: 4px;
+}
+
+.event-time-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.event-time {
+  font-weight: 500;
+  min-width: 60px;
+  color: #333;
+}
+
+.event-title {
+  font-weight: 600;
+  color: #1e88e5;
+  text-decoration: none;
+}
+
+.event-title:hover {
+  text-decoration: underline;
+}
+
+.event-subtitle {
+  font-size: 14px;
+}
+
+.spinner-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  text-align: center;
+}
+
+.spinner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.spinner-label {
+  font-size: 16px;
+  color: #555;
+}

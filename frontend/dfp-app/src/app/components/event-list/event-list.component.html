@@ -1,0 +1,55 @@
+<div class="day-selector">
+  <mat-button-toggle-group
+    name="dayToggle"
+    aria-label="Festival Day"
+    [(ngModel)]="selectedDay"
+    (change)="onDayChange(selectedDay)"
+    appearance="legacy"
+  >
+    <mat-button-toggle *ngFor="let day of ['1','2','3','4','5','6']" [value]="day">
+      Day {{ day }}
+    </mat-button-toggle>
+  </mat-button-toggle-group>
+</div>
+
+<div *ngIf="loading" class="spinner-wrapper">
+  <div class="spinner-content">
+    <mat-progress-spinner mode="indeterminate" diameter="50" color="primary"></mat-progress-spinner>
+    <div class="spinner-label">Loading your schedule...</div>
+  </div>
+</div>
+
+<div class="event-grid">
+  <mat-card
+    class="event-card"
+    *ngFor="let event of events"
+    [class.selected]="isSelected(event.id)"
+  >
+    <mat-checkbox
+      class="event-checkbox"
+      (change)="toggleSelection(event.id)"
+      [checked]="isSelected(event.id)"
+    ></mat-checkbox>
+
+    <mat-card-header>
+      <div mat-card-avatar class="thumbnail-wrapper">
+        <img [src]="event.image" class="thumbnail" alt="Event" />
+      </div>
+      <mat-card-title>
+        <a [href]="event.link" target="_blank" rel="noopener noreferrer">{{
+          event.title
+        }}</a>
+      </mat-card-title>
+
+      <mat-card-subtitle>{{ event.subtitle }}</mat-card-subtitle>
+    </mat-card-header>
+
+    <mat-card-content>
+      <p>
+        <strong>Date:</strong> {{ event.date }} | <strong>Time:</strong>
+        {{ event.time }}
+      </p>
+      <p>{{ event.description }}</p>
+    </mat-card-content>
+  </mat-card>
+</div>

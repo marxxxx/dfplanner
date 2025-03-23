@@ -1,0 +1,31 @@
+<div class="calendar-view">
+  <h2>My Festival Plan</h2>
+
+  <div *ngIf="loading" class="spinner-wrapper">
+    <div class="spinner-content">
+      <mat-progress-spinner mode="indeterminate" diameter="50" color="primary"></mat-progress-spinner>
+      <div class="spinner-label">Loading your schedule...</div>
+    </div>
+  </div>
+
+  <div *ngFor="let day of groupedEventKeys">
+    <h3 class="day-heading">{{ day }}</h3>
+
+    <mat-list>
+      <mat-list-item *ngFor="let event of groupedEvents[day]" class="event-list-item">
+        <img matListItemAvatar [src]="event.image" alt="event" class="event-thumb" />
+
+        <div matListItemLine class="event-time-title">
+          <span class="event-time">{{ event.time }}</span>
+          <a [href]="event.link" target="_blank" class="event-title">
+            {{ event.title }}
+          </a>
+        </div>
+
+        <div matListItemLine class="event-subtitle">
+          {{ event.subtitle }}
+        </div>
+      </mat-list-item>
+    </mat-list>
+  </div>
+</div>
