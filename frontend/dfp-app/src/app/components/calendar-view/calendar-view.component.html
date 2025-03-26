@@ -11,7 +11,12 @@
   <div *ngIf="!loading && groupedEventKeys.length === 0" class="empty-state">
     <mat-icon class="empty-state-icon">event_note</mat-icon>
     <p class="empty-state-message">
-      No events selected. Please go to the Events view and select the events you would like to attend. They will appear here in chronological order.
+      No events selected.       
+    </p>
+
+    <p class="empty-state-message">
+      Please go to the Events view and select the events you would like to attend. They will appear here in chronological order.
+      
     </p>
   </div>
 
@@ -20,18 +25,23 @@
 
     <mat-list>
       <mat-list-item *ngFor="let event of groupedEvents[day]" class="event-list-item">
-        <img matListItemAvatar [src]="event.image" alt="event" class="event-thumb" />
+      <img matListItemAvatar [src]="event.image" alt="event" class="event-thumb" />
 
-        <div matListItemLine class="event-time-title">
-          <span class="event-time">{{ event.time }}</span>
-          <a [href]="event.link" target="_blank" class="event-title">
-            {{ event.title }}
-          </a>
-        </div>
+      <div matListItemLine class="event-time-title">
+        <span class="event-time">{{ event.time }}</span>
+        <a [href]="event.link" target="_blank" class="event-title">
+        {{ event.title }}
+        </a>
+      </div>
 
-        <div matListItemLine class="event-subtitle">
-          {{ event.subtitle }}
-        </div>
+      <div matListItemLine class="event-subtitle">
+        {{ event.subtitle }}
+      </div>
+
+      <div matListItemLine class="event-venue-room">
+        <span class="event-venue">{{ event.venue }}</span>
+        <span *ngIf="event.room" class="event-room"> - Room: {{ event.room }}</span>
+      </div>
       </mat-list-item>
     </mat-list>
   </div>

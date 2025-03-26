@@ -1,5 +1,5 @@
 # Use the official Node.js image as the base image
-FROM node:22
+FROM node:22-slim
 
 # Set the working directory in the container
 WORKDIR /app
@@ -12,6 +12,9 @@ RUN npm install
 
 # Copy the rest of the application code to the working directory
 COPY . .
+
+# Copy also data folder to working directory
+COPY data ./data
 
 # Expose the port the app runs on
 EXPOSE 3000

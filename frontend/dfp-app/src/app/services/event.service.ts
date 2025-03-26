@@ -11,9 +11,10 @@ export interface EventItem {
   time: string;
   description: string;
   link: string;
+  tags: string[];
+  venue: string;
+  room: string;
 }
-
-
 
 @Injectable({
   providedIn: 'root'
