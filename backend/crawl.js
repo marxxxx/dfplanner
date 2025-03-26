@@ -1,50 +1,47 @@
 const { Builder, By } = require("selenium-webdriver");
 const chrome = require("selenium-webdriver/chrome");
 
-let driver = null;
-async function init() {
-  const options = new chrome.Options().addArguments("--headless");
-  driver = await new Builder()
-    .forBrowser("chrome")
-    .setChromeOptions(options)
-    .build();
-}
-
-async function quit() {
-  await driver.quit();
-}
-
 async function crawlEvents(day, date) {
-  const url = `https://www.donaufestival.at/de/programm?tag=${day}&date=${date}`;
-
-  if (!driver) {
-    await init();
+  try {
+    const url = `https://www.donaufestival.at/de/programm?tag=${day}&date=${date}`;
+  
+    const options = new chrome.Options().addArguments("--headless");
+    driver = await new Builder()
+      .forBrowser("chrome")
+      .setChromeOptions(options)
+      .build();
+  
+    await driver.get(url);
+  
+    let containerSelector = ".event-list__items";
+    let eventSelector = ".event-item";
+    if (day == 249) {
+      // day 5
+      containerSelector =
+        "#main-content > div.event-overview-page.grid-container > div > div.event-list > section:nth-child(2) > ul";
+      //eventSelector = ".event-list__items";
+    }
+  
+    const container = await driver.findElement(By.css(containerSelector));
+    const eventItems = await container.findElements(By.css(eventSelector));
+  
+    const results = [];
+  
+    for (const item of eventItems) {
+      const event = await parseEventItem(item);
+      results.push(event);
+    }
+  
+    console.log(results);
+  
+    return results;
+  } finally {
+    try {
+      await driver.quit();
+    } catch(e) {
+      console.error('Failed to quit driver', e);
+    }    
   }
-
-  await driver.get(url);
-
-  let containerSelector = ".event-list__items";
-  let eventSelector = ".event-item";
-  if (day == 249) {
-    // day 5
-    containerSelector =
-      "#main-content > div.event-overview-page.grid-container > div > div.event-list > section:nth-child(2) > ul";
-    //eventSelector = ".event-list__items";
-  }
-
-  const container = await driver.findElement(By.css(containerSelector));
-  const eventItems = await container.findElements(By.css(eventSelector));
-
-  const results = [];
-
-  for (const item of eventItems) {
-    const event = await parseEventItem(item);
-    results.push(event);
-  }
-
-  console.log(results);
-
-  return results;
 }
 
 async function parseEventItem(item) {
@@ -94,38 +91,29 @@ async function parseEventItem(item) {
     time = match ? match[1] : timeText;
   }
 
-  let title = await getTextOrNull(".card-headline__title");
-  if (!title) {
-    title = await getTextOrNull("h3.card-headline__title");
-  }
+  const title = await getTextOrNull(".card-headline__title");
+  const description = await getTextOrNull(".event-item__description > p");
+  const subtitle = await getTextOrNull(".card-headline__subtitle");
+  const link = await getAttrOrNull(".event-item__link", "href");
 
-  let description = '';
-  try {
-    description = await getTextOrNull(".event-item__description > p");
-  }
-  catch (e) {
-    console.error("Failed to get description", e);
-  }
+  const id = link ? link.split("/").pop() : null;
 
-  let subtitle = '';
-  try {
-    subtitle = await getTextOrNull(".card-headline__subtitle");
-  }
-  catch (e) {
-    console.error("Failed to get subtitle", e);
-  }
-   
+  const venue = trim(await getTextOrNull(".labels__item--venue"));
+  const room = await getTextOrNull(".labels__item--room");
+  const image = await getAttrOrNull("figure img", "src");
+
   const event = {
+    id: id,
     title: title,
     subtitle: subtitle,
     date,
     time,
     description: description,
     tags: [],
-    venue: trim(await getTextOrNull(".labels__item--venue")),
-    room: await getTextOrNull(".labels__item--room"),
-    image: await getAttrOrNull("figure img", "src"),
-    link: await getAttrOrNull(".event-item__link", "href"),
+    venue: venue,
+    room: room,
+    image: image,
+    link: link,
   };
 
   // Full link
