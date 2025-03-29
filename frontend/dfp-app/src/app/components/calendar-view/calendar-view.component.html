@@ -1,6 +1,4 @@
 <div class="calendar-view">
-  <h2>My Festival Plan</h2>
-
   <div *ngIf="loading" class="spinner-wrapper">
     <div class="spinner-content">
       <mat-progress-spinner mode="indeterminate" diameter="50" color="primary"></mat-progress-spinner>
@@ -11,12 +9,11 @@
   <div *ngIf="!loading && groupedEventKeys.length === 0" class="empty-state">
     <mat-icon class="empty-state-icon">event_note</mat-icon>
     <p class="empty-state-message">
-      No events selected.       
+      No events selected.
     </p>
 
     <p class="empty-state-message">
       Please go to the Events view and select the events you would like to attend. They will appear here in chronological order.
-      
     </p>
   </div>
 

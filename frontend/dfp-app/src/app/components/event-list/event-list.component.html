@@ -9,7 +9,7 @@
       *ngFor="let day of ['1', '2', '3', '4', '5', '6']"
       [value]="day"
     >
-      Day {{ day }}
+      <span class="day-label">Day</span> {{ day }}
       <span *ngIf="getSelectedCount(day) > 0"
         >({{ getSelectedCount(day) }})</span
       >

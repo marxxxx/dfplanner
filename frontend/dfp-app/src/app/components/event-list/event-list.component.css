@@ -89,3 +89,10 @@
   width: 95%;
   padding: 8px;
 }
+
+
+@media (max-width: 640px) {
+  .day-label {
+    display: none;
+  }
+}
