@@ -53,6 +53,10 @@
   padding: 16px;
   display: flex;
   justify-content: center;
+  position: sticky;
+  top: 0;
+  background-color: #fff; /* Optional: to ensure it doesn't overlap with other content */
+  z-index: 10; /* Optional: to ensure it stays above other elements */
 }
 
 
@@ -76,7 +80,12 @@
   color: #555;
 }
 
-.centered-button {
-  display: flex;
-  justify-content: center;
+.search-section {
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+}
+
+.search-field {
+  width: 95%;
+  padding: 8px;
 }

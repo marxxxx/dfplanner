@@ -6,11 +6,13 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { SelectionService } from '../../services/selection.service';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
-import { MatMenu, MatMenuModule } from '@angular/material/menu';
+import { MatMenuModule } from '@angular/material/menu';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
 
 @Component({
   selector: 'app-event-list',
@@ -25,6 +27,8 @@ import { MatMenu, MatMenuModule } from '@angular/material/menu';
     MatProgressSpinnerModule,
     MatIconModule,
     MatMenuModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   templateUrl: './event-list.component.html',
   styleUrls: ['./event-list.component.css'],
@@ -69,6 +73,22 @@ export class EventListComponent implements OnInit {
 
   clearSelection() {
     this.selectionService.clear();
+  }
+
+  showSearch = false;
+  toggleSearch() {
+    this.showSearch = !this.showSearch;
+  }
+
+  searchQuery = '';
+  onSearchChange(searchQuery: string) {
+    if (searchQuery?.trim()) {
+      this.events = this.events.filter((event) =>
+        event.title.toLowerCase().includes(searchQuery.toLowerCase())
+      );
+    } else {
+      this.loadEvents();
+    }
   }
 
   isSelected(id: string): boolean {

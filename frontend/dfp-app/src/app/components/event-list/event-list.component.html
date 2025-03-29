@@ -5,9 +5,14 @@
     [(ngModel)]="selectedDay"
     (change)="onDayChange(selectedDay)"
   >
-    <mat-button-toggle *ngFor="let day of ['1','2','3','4','5','6']" [value]="day">
+    <mat-button-toggle
+      *ngFor="let day of ['1', '2', '3', '4', '5', '6']"
+      [value]="day"
+    >
       Day {{ day }}
-      <span *ngIf="getSelectedCount(day) > 0">({{ getSelectedCount(day) }})</span>
+      <span *ngIf="getSelectedCount(day) > 0"
+        >({{ getSelectedCount(day) }})</span
+      >
     </mat-button-toggle>
   </mat-button-toggle-group>
 
@@ -20,14 +25,40 @@
         <mat-icon>clear</mat-icon>
         <span>Clear all selected events</span>
       </button>
+
+      <button mat-menu-item (click)="toggleSearch()">
+        <mat-icon>search</mat-icon>
+        <span>Search</span>
+      </button>
     </mat-menu>
   </div>
 </div>
 
 
+<div class="search-section">
+  <mat-form-field *ngIf="showSearch" appearance="outline" class="search-field">
+    <mat-label>Search</mat-label>
+    <input
+      matInput
+      type="text"
+      [ngModel]="searchQuery"
+      (ngModelChange)="onSearchChange($event)"
+    />
+    @if (searchQuery) {
+    <button matSuffix mat-icon-button aria-label="Clear" (click)="searchQuery = ''">
+      <mat-icon>close</mat-icon>
+    </button>
+    }
+  </mat-form-field>
+</div>
+
 <div *ngIf="loading" class="spinner-wrapper">
   <div class="spinner-content">
-    <mat-progress-spinner mode="indeterminate" diameter="50" color="primary"></mat-progress-spinner>
+    <mat-progress-spinner
+      mode="indeterminate"
+      diameter="50"
+      color="primary"
+    ></mat-progress-spinner>
     <div class="spinner-label">Loading your schedule...</div>
   </div>
 </div>
@@ -59,12 +90,10 @@
 
     <mat-card-content>
       <p>
-      <strong>Date:</strong> {{ event.date }} | <strong>Time:</strong>
-      {{ event.time }}
+        <strong>Date:</strong> {{ event.date }} | <strong>Time:</strong>
+        {{ event.time }}
       </p>
-      <p>
-        <strong>Venue:</strong> {{ event.venue }}
-      </p>
+      <p><strong>Venue:</strong> {{ event.venue }}</p>
       <p>{{ event.description }}</p>
     </mat-card-content>
   </mat-card>
