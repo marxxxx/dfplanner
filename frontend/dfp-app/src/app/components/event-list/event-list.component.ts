@@ -46,14 +46,19 @@ export class EventListComponent implements OnInit {
     });
   }
 
-  toggleSelection(id: string): void {
-    this.selectionService.toggleSelection(id);
+  toggleSelection(event: EventItem): void {
+    this.selectionService.toggleSelection(event.id, this.selectedDay);
 
-    this.shimmeringIds.add(id);
-    setTimeout(() => this.shimmeringIds.delete(id), 800);
+    this.shimmeringIds.add(event.id);
+    setTimeout(() => this.shimmeringIds.delete(event.id), 800);
   }
 
   isSelected(id: string): boolean {
     return this.selectionService.isSelected(id);
+  }
+
+  getSelectedCount(day: string): number {
+    const count = this.selectionService.getSelectedCount(day);
+    return count;
   }
 }

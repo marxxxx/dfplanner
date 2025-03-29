@@ -4,10 +4,10 @@
     aria-label="Festival Day"
     [(ngModel)]="selectedDay"
     (change)="onDayChange(selectedDay)"
-    appearance="legacy"
   >
     <mat-button-toggle *ngFor="let day of ['1','2','3','4','5','6']" [value]="day">
       Day {{ day }}
+      <span *ngIf="getSelectedCount(day) > 0">({{ getSelectedCount(day) }})</span>
     </mat-button-toggle>
   </mat-button-toggle-group>
 </div>
@@ -27,7 +27,7 @@
   >
     <mat-checkbox
       class="event-checkbox"
-      (change)="toggleSelection(event.id)"
+      (change)="toggleSelection(event)"
       [checked]="isSelected(event.id)"
     ></mat-checkbox>
 
