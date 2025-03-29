@@ -21,8 +21,8 @@ export interface EventItem {
   providedIn: 'root'
 })
 export class EventService {
-  private apiUrl = 'http://localhost:3000/api/events';
-  //private apiUrl = 'https://dfplanxumsynez-dfp-backend.functions.fnc.fr-par.scw.cloud/api/events';
+  //private apiUrl = 'http://localhost:3000/api/events';
+  private apiUrl = 'https://dfplanxumsynez-dfp-backend.functions.fnc.fr-par.scw.cloud/api/events';
 
   constructor(private http: HttpClient) {}
 
