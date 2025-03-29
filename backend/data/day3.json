@@ -1,15 +1,13 @@
 [
   {
     "id": "40522",
+    "day": 3,
     "title": "GÖKSU KUNAK",
     "subtitle": "Geçmis Masumiyet / Bygone Innocence",
     "date": "So 4 Mai 2025",
     "time": "10:00 Uhr",
     "description": "",
-    "tags": [
-      "day 3",
-      "art"
-    ],
+    "tags": [],
     "venue": "Kunsthalle Krems",
     "room": "Kunsthalle Krems",
     "image": "https://noeku.on.damlivery.com/s/af509919ef78a66125208ad18972ac04/noeku/821431/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
@@ -17,15 +15,13 @@
   },
   {
     "id": "40426",
+    "day": 3,
     "title": "A DRINK WITH...",
     "subtitle": "",
     "date": "So 4 Mai 2025",
     "time": "11:00 Uhr",
     "description": "",
-    "tags": [
-      "day 3",
-      "theory & talk"
-    ],
+    "tags": [],
     "venue": "Klangraum Krems Minoritenkirche",
     "room": "Klangraum Krems Minoritenkirche",
     "image": "https://noeku.on.damlivery.com/s/4a0a56f8a1cbcaad59953d65aad45278/noeku/755012/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
@@ -33,15 +29,13 @@
   },
   {
     "id": "40572",
+    "day": 3,
     "title": "GOD'S ENTERTAINMENT",
     "subtitle": "DU DU DA DA NA NA NAH",
     "date": "So 4 Mai 2025",
     "time": "13:00 Uhr",
     "description": "Auftragswerk",
-    "tags": [
-      "day 3",
-      "art"
-    ],
+    "tags": [],
     "venue": "Messehallen Krems",
     "room": "Zentrale",
     "image": "https://noeku.on.damlivery.com/s/16bd7a47e869abf0da4b7e980435b83d/noeku/823828/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
@@ -49,15 +43,13 @@
   },
   {
     "id": "39957",
+    "day": 3,
     "title": "EL CONDE DE TORREFIEL",
     "subtitle": "La luz de un lago",
     "date": "So 4 Mai 2025",
     "time": "13:30 Uhr",
     "description": "Österreichische Erstaufführung",
-    "tags": [
-      "day 3",
-      "performance"
-    ],
+    "tags": [],
     "venue": "Messehallen Krems",
     "room": "Halle 1",
     "image": "https://noeku.on.damlivery.com/s/41dc0bd690006b61fd46ceae2bb2228f/noeku/823805/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
@@ -65,6 +57,7 @@
   },
   {
     "id": "40428",
+    "day": 3,
     "title": "CRITICAL ZONE",
     "subtitle": "Regie: Ali Ahmadzadeh",
     "date": "So 4 Mai 2025",
@@ -78,6 +71,7 @@
   },
   {
     "id": "40635",
+    "day": 3,
     "title": "SEBASTIÁN DÍAZ MORALES",
     "subtitle": "Miles marchan (Thousands March)",
     "date": "So 4 Mai 2025",
@@ -91,6 +85,7 @@
   },
   {
     "id": "39958",
+    "day": 3,
     "title": "EMAN HUSSEIN",
     "subtitle": "Smell of Cement",
     "date": "So 4 Mai 2025",
@@ -104,6 +99,7 @@
   },
   {
     "id": "40521",
+    "day": 3,
     "title": "GOD'S ENTERTAINMENT",
     "subtitle": "DU DU DA DA NA NA NAH",
     "date": "So 4 Mai 2025",
@@ -117,6 +113,7 @@
   },
   {
     "id": "40432",
+    "day": 3,
     "title": "JENS BALZER, KILIAN JÖRG, ANGELA RICHTER",
     "subtitle": "Die Freiheit, die wer meint?",
     "date": "So 4 Mai 2025",
@@ -129,20 +126,8 @@
     "link": "https://www.donaufestival.at/de/programm/jens-balzer-kilian-jorg-angela-richter/40432"
   },
   {
-    "id": "39959",
-    "title": "DEVA SCHUBERT",
-    "subtitle": "Silent Spills II",
-    "date": "So 4 Mai 2025",
-    "time": "16:30 Uhr",
-    "description": "",
-    "tags": [],
-    "venue": "Klangraum Krems Minoritenkirche",
-    "room": "Forum Frohner",
-    "image": "https://noeku.on.damlivery.com/s/41478723af067ad1d5f99bc6835d03db/noeku/826500/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
-    "link": "https://www.donaufestival.at/de/programm/deva-schubert/39959"
-  },
-  {
     "id": "40594",
+    "day": 3,
     "title": "MARIA W HORN",
     "subtitle": "Panoptikon",
     "date": "So 4 Mai 2025",
@@ -153,57 +138,5 @@
     "room": "Klangraum Krems Kapitelsaal",
     "image": "https://noeku.on.damlivery.com/s/d391174f66695027f68170f71615baa9/noeku/826996/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
     "link": "https://www.donaufestival.at/de/programm/maria-w-horn/40594"
-  },
-  {
-    "id": "40551",
-    "title": "DEVA SCHUBERT",
-    "subtitle": "Silent Spills II",
-    "date": "So 4 Mai 2025",
-    "time": "17:30 Uhr",
-    "description": "Auftragswerk",
-    "tags": [],
-    "venue": "Klangraum Krems Minoritenkirche",
-    "room": "Forum Frohner",
-    "image": "https://noeku.on.damlivery.com/s/99f15ff3a56fe19df70f073929f6d0b3/noeku/826501/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.503788:0.0392403",
-    "link": "https://www.donaufestival.at/de/programm/deva-schubert/40551"
-  },
-  {
-    "id": "40409",
-    "title": "MALA HERBA: WOUNDED HEALER AV",
-    "subtitle": "With Joanna Zabielska and Alma Bektas",
-    "date": "So 4 Mai 2025",
-    "time": "17:30 Uhr",
-    "description": "",
-    "tags": [],
-    "venue": "Klangraum Krems Minoritenkirche",
-    "room": "Klangraum Krems Minoritenkirche",
-    "image": "https://noeku.on.damlivery.com/s/1a58d39f79b96fb918db4e0145db6fcd/noeku/824575/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
-    "link": "https://www.donaufestival.at/de/programm/mala-herba-wounded-healer-av/40409"
-  },
-  {
-    "id": "40421",
-    "title": "RACHIKA NAYAR / NINA KEITH",
-    "subtitle": "",
-    "date": "So 4 Mai 2025",
-    "time": "19:00 Uhr",
-    "description": "",
-    "tags": [],
-    "venue": "Klangraum Krems Minoritenkirche",
-    "room": "Klangraum Krems Minoritenkirche",
-    "image": "https://noeku.on.damlivery.com/s/d0a632c051ff781730c1408e6e06a442/noeku/826626/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.467803:0.173367",
-    "link": "https://www.donaufestival.at/de/programm/rachika-nayar-nina-keith/40421"
-  },
-  {
-    "id": "40422",
-    "title": "SHABAKA",
-    "subtitle": "",
-    "date": "So 4 Mai 2025",
-    "time": "20:30 Uhr",
-    "description": "",
-    "tags": [],
-    "venue": "Klangraum Krems Minoritenkirche",
-    "room": "Klangraum Krems Minoritenkirche",
-    "image": "https://noeku.on.damlivery.com/s/795e4a895d6b7c1e47d96c4e21e4e04d/noeku/827032/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.52217:0.43593",
-    "link": "https://www.donaufestival.at/de/programm/shabaka/40422"
   }
 ]

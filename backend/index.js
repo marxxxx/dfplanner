@@ -42,20 +42,20 @@ app.get("/api/events/crawl", async (req, res) => {
 
   const results = [];
 
-  for (let tag = startDay; tag <= 6; tag++) {
+  for (let day = startDay; day <= 6; day++) {
     try {
-      const result = await crawlEvents(244 + tag, date);
+      const result = await crawlEvents(day, date);
 
       fs.writeFileSync(
-        `data/day${tag}.json`,
+        `data/day${day}.json`,
         JSON.stringify(result, null, 2),
         "utf-8"
       );
 
-      results.push({day: tag, result: 'OK'})
+      results.push({day: day, result: 'OK'})
     } catch (e) {
-      console.log('Failed to crawl day', tag, e);
-      results.push({day: tag, result: 'Failed', error: e.message})
+      console.log('Failed to crawl day', day, e);
+      results.push({day: day, result: 'Failed', error: e.message})
     }
   }
 

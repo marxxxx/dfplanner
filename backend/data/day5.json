@@ -1,15 +1,13 @@
 [
   {
     "id": "40405",
+    "day": 5,
     "title": "GÖKSU KUNAK",
     "subtitle": "Geçmis Masumiyet / Bygone Innocence",
     "date": "Sa 10 Mai 2025",
     "time": "10:00 Uhr",
     "description": "",
-    "tags": [
-      "day 5",
-      "art"
-    ],
+    "tags": [],
     "venue": "Kunsthalle Krems",
     "room": "Kunsthalle Krems",
     "image": "https://noeku.on.damlivery.com/s/af509919ef78a66125208ad18972ac04/noeku/821431/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
@@ -17,15 +15,13 @@
   },
   {
     "id": "40655",
+    "day": 5,
     "title": "A DRINK WITH...",
     "subtitle": "",
     "date": "Sa 10 Mai 2025",
     "time": "11:00 Uhr",
     "description": "",
-    "tags": [
-      "day 5",
-      "theory & talk"
-    ],
+    "tags": [],
     "venue": "Klangraum Krems Minoritenkirche",
     "room": "Klangraum Krems Minoritenkirche",
     "image": null,
@@ -33,15 +29,13 @@
   },
   {
     "id": "40019",
+    "day": 5,
     "title": "EVERYTHING BUT THE WORLD",
     "subtitle": "Regie: Lauren Boyle, DIS",
     "date": "Sa 10 Mai 2025",
     "time": "12:30 Uhr",
     "description": "",
-    "tags": [
-      "day 5",
-      "film"
-    ],
+    "tags": [],
     "venue": "Kino im Kesselhaus",
     "room": "Kino im Kesselhaus",
     "image": "https://noeku.on.damlivery.com/s/7c38e1419cf8661ad22c89991a215044/noeku/825234/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
@@ -49,6 +43,7 @@
   },
   {
     "id": "40403",
+    "day": 5,
     "title": "PEOPLE LIKE US",
     "subtitle": "The Library of Babel",
     "date": "Sa 10 Mai 2025",
@@ -62,6 +57,7 @@
   },
   {
     "id": "40020",
+    "day": 5,
     "title": "DIETMAR DATH, JULIA GRILLMAYR",
     "subtitle": "Life on Venus",
     "date": "Sa 10 Mai 2025",
@@ -75,6 +71,7 @@
   },
   {
     "id": "40410",
+    "day": 5,
     "title": "DEVA SCHUBERT",
     "subtitle": "Silent Spills II",
     "date": "Sa 10 Mai 2025",
@@ -88,6 +85,7 @@
   },
   {
     "id": "40420",
+    "day": 5,
     "title": "SEBASTIÁN DÍAZ MORALES",
     "subtitle": "Miles marchan (Thousands March)",
     "date": "Sa 10 Mai 2025",
@@ -101,6 +99,7 @@
   },
   {
     "id": "40417",
+    "day": 5,
     "title": "MARIA W HORN",
     "subtitle": "Panoptikon",
     "date": "Sa 10 Mai 2025",
@@ -114,6 +113,7 @@
   },
   {
     "id": "39911",
+    "day": 5,
     "title": "SHOVEL DANCE COLLECTIVE",
     "subtitle": "",
     "date": "Sa 10 Mai 2025",
@@ -124,135 +124,5 @@
     "room": "Klangraum Krems Minoritenkirche",
     "image": "https://noeku.on.damlivery.com/s/167fea2c4f44e77d12727062b61e49a8/noeku/826630/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
     "link": "https://www.donaufestival.at/de/programm/shovel-dance-collective/39911"
-  },
-  {
-    "id": "39874",
-    "title": "ERNST LIMA",
-    "subtitle": "",
-    "date": "Sa 10 Mai 2025",
-    "time": "16:30 Uhr",
-    "description": "",
-    "tags": [],
-    "venue": "Klangraum Krems Minoritenkirche",
-    "room": "Klangraum Krems Minoritenkirche",
-    "image": "https://noeku.on.damlivery.com/s/61b97729d1a156fd698743fee715fe6e/noeku/826605/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
-    "link": "https://www.donaufestival.at/de/programm/ernst-lima/39874"
-  },
-  {
-    "id": "39873",
-    "title": "TRISTWCH Y FENYWOD",
-    "subtitle": "",
-    "date": "Sa 10 Mai 2025",
-    "time": "18:20 Uhr",
-    "description": "",
-    "tags": [],
-    "venue": "Klangraum Krems Minoritenkirche",
-    "room": "Klangraum Krems Minoritenkirche",
-    "image": "https://noeku.on.damlivery.com/s/a4100d0a45786a6785da9f23d736a743/noeku/824589/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
-    "link": "https://www.donaufestival.at/de/programm/tristwch-y-fenywod/39873"
-  },
-  {
-    "id": "40413",
-    "title": "GOD'S ENTERTAINMENT",
-    "subtitle": "DU DU DA DA NA NA NAH",
-    "date": "Sa 10 Mai 2025",
-    "time": "19:00 Uhr",
-    "description": "Auftragswerk",
-    "tags": [],
-    "venue": "Messehallen Krems",
-    "room": "Zentrale",
-    "image": "https://noeku.on.damlivery.com/s/16bd7a47e869abf0da4b7e980435b83d/noeku/823828/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
-    "link": "https://www.donaufestival.at/de/programm/gods-entertainment/40413"
-  },
-  {
-    "id": "39963",
-    "title": "AYLA PIERROT ARENDT",
-    "subtitle": "Death in Peace",
-    "date": "Sa 10 Mai 2025",
-    "time": "19:30 Uhr",
-    "description": "Österreichische Erstaufführung",
-    "tags": [],
-    "venue": "Messehallen Krems",
-    "room": "Halle 1",
-    "image": "https://noeku.on.damlivery.com/s/4487dda142cc8ce8782392f7dca0814b/noeku/823786/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
-    "link": "https://www.donaufestival.at/de/programm/ayla-pierrot-arendt/39963"
-  },
-  {
-    "id": "39964",
-    "title": "ORIGINAL BOMBER CREW",
-    "subtitle": "tReta – a performative invasion",
-    "date": "Sa 10 Mai 2025",
-    "time": "19:30 Uhr",
-    "description": "Österreichische Erstaufführung",
-    "tags": [],
-    "venue": "Messehallen Krems",
-    "room": "Halle 3",
-    "image": "https://noeku.on.damlivery.com/s/3ecdd076a0e0957b367d776e51c2d7cd/noeku/823834/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
-    "link": "https://www.donaufestival.at/de/programm/original-bomber-crew/39964"
-  },
-  {
-    "id": "39872",
-    "title": "CIRCUIT DES YEUX",
-    "subtitle": "",
-    "date": "Sa 10 Mai 2025",
-    "time": "20:00 Uhr",
-    "description": "",
-    "tags": [],
-    "venue": "Messehallen Krems",
-    "room": "Stadtsaal",
-    "image": "https://noeku.on.damlivery.com/s/2d63db1c3a841806da73313b479f9a09/noeku/824558/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
-    "link": "https://www.donaufestival.at/de/programm/circuit-des-yeux/39872"
-  },
-  {
-    "id": "40400",
-    "title": "GOD’S ENTERTAINMENT",
-    "subtitle": "DU DU DA DA NA NA NAH",
-    "date": "Sa 10 Mai 2025",
-    "time": "20:30 Uhr",
-    "description": "Auftragswerk",
-    "tags": [],
-    "venue": "Messehallen Krems",
-    "room": "Zentrale",
-    "image": "https://noeku.on.damlivery.com/s/ce05493739332c1d6f85ced306fd0272/noeku/826394/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
-    "link": "https://www.donaufestival.at/de/programm/gods-entertainment/40400"
-  },
-  {
-    "id": "39868",
-    "title": "GIULIO ERASMUS AND THE END OF THE WORM",
-    "subtitle": "",
-    "date": "Sa 10 Mai 2025",
-    "time": "21:00 Uhr",
-    "description": "",
-    "tags": [],
-    "venue": "Messehallen Krems",
-    "room": "Halle 2",
-    "image": "https://noeku.on.damlivery.com/s/bd9931ccd2224137ebef28ac0a4b1ff0/noeku/826612/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
-    "link": "https://www.donaufestival.at/de/programm/giulio-erasmus-and-the-end-of-the-worm/39868"
-  },
-  {
-    "id": "39867",
-    "title": "LANKUM",
-    "subtitle": "",
-    "date": "Sa 10 Mai 2025",
-    "time": "22:00 Uhr",
-    "description": "",
-    "tags": [],
-    "venue": "Messehallen Krems",
-    "room": "Stadtsaal",
-    "image": "https://noeku.on.damlivery.com/s/5a720d110d253adaf7592c00c41d7983/noeku/824564/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
-    "link": "https://www.donaufestival.at/de/programm/lankum/39867"
-  },
-  {
-    "id": "39965",
-    "title": "AYLA PIERROT ARENDT",
-    "subtitle": "Death in Peace",
-    "date": "Sa 10 Mai 2025",
-    "time": "22:00 Uhr",
-    "description": "Österreichische Erstaufführung",
-    "tags": [],
-    "venue": "Messehallen Krems",
-    "room": "Halle 1",
-    "image": "https://noeku.on.damlivery.com/s/4487dda142cc8ce8782392f7dca0814b/noeku/823786/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
-    "link": "https://www.donaufestival.at/de/programm/ayla-pierrot-arendt/39965"
   }
 ]

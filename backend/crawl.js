@@ -3,7 +3,9 @@ const chrome = require("selenium-webdriver/chrome");
 
 async function crawlEvents(day, date) {
   try {
-    const url = `https://www.donaufestival.at/de/programm?tag=${day}&date=${date}`;
+
+    const dayParam = 244 + day;
+    const url = `https://www.donaufestival.at/de/programm?tag=${dayParam}&date=${date}`;
   
     const options = new chrome.Options().addArguments("--headless");
     driver = await new Builder()
@@ -15,11 +17,9 @@ async function crawlEvents(day, date) {
   
     let containerSelector = ".event-list__items";
     let eventSelector = ".event-item";
-    if (day == 249) {
-      // day 5
+    if (day == 5) {
       containerSelector =
         "#main-content > div.event-overview-page.grid-container > div > div.event-list > section:nth-child(2) > ul";
-      //eventSelector = ".event-list__items";
     }
   
     const container = await driver.findElement(By.css(containerSelector));
@@ -28,7 +28,7 @@ async function crawlEvents(day, date) {
     const results = [];
   
     for (const item of eventItems) {
-      const event = await parseEventItem(item);
+      const event = await parseEventItem(day, item);
       results.push(event);
     }
   
@@ -44,7 +44,7 @@ async function crawlEvents(day, date) {
   }
 }
 
-async function parseEventItem(item) {
+async function parseEventItem(day, item) {
   const getTextOrNull = async (selector) => {
     try {
       const value = await item.findElement(By.css(selector)).getText();
@@ -104,6 +104,7 @@ async function parseEventItem(item) {
 
   const event = {
     id: id,
+    day: day,
     title: title,
     subtitle: subtitle,
     date,

@@ -8,10 +8,24 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { SelectionService } from '../../services/selection.service';
 import { FormsModule } from '@angular/forms';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { MatMenu, MatMenuModule } from '@angular/material/menu';
 
 @Component({
   selector: 'app-event-list',
-  imports: [CommonModule, FormsModule, MatCardModule, MatCheckboxModule, MatGridListModule, MatButtonToggleModule, MatProgressSpinnerModule],
+  imports: [
+    CommonModule,
+    FormsModule,
+    MatCardModule,
+    MatCheckboxModule,
+    MatGridListModule,
+    MatButtonToggleModule,
+    MatButtonModule,
+    MatProgressSpinnerModule,
+    MatIconModule,
+    MatMenuModule,
+  ],
   templateUrl: './event-list.component.html',
   styleUrls: ['./event-list.component.css'],
 })
@@ -51,6 +65,10 @@ export class EventListComponent implements OnInit {
 
     this.shimmeringIds.add(event.id);
     setTimeout(() => this.shimmeringIds.delete(event.id), 800);
+  }
+
+  clearSelection() {
+    this.selectionService.clear();
   }
 
   isSelected(id: string): boolean {

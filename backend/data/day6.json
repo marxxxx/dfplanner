@@ -1,15 +1,13 @@
 [
   {
     "id": "40407",
+    "day": 6,
     "title": "GÖKSU KUNAK",
     "subtitle": "Geçmiş Masumiyet/ Bygone Innocence",
     "date": "So 11 Mai 2025",
     "time": "10:00 Uhr",
     "description": "",
-    "tags": [
-      "day 6",
-      "art"
-    ],
+    "tags": [],
     "venue": "Kunsthalle Krems",
     "room": "Kunsthalle Krems",
     "image": "https://noeku.on.damlivery.com/s/af509919ef78a66125208ad18972ac04/noeku/821431/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
@@ -17,15 +15,13 @@
   },
   {
     "id": "40430",
+    "day": 6,
     "title": "A DRINK WITH…",
     "subtitle": "",
     "date": "So 11 Mai 2025",
     "time": "11:00 Uhr",
     "description": "",
-    "tags": [
-      "day 6",
-      "theory & talk"
-    ],
+    "tags": [],
     "venue": "Klangraum Krems Minoritenkirche",
     "room": "Klangraum Krems Minoritenkirche",
     "image": "https://noeku.on.damlivery.com/s/4a0a56f8a1cbcaad59953d65aad45278/noeku/755012/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
@@ -33,15 +29,13 @@
   },
   {
     "id": "40427",
+    "day": 6,
     "title": "ABENDLAND",
     "subtitle": "Regie: Omer Fast",
     "date": "So 11 Mai 2025",
     "time": "13:30 Uhr",
     "description": "",
-    "tags": [
-      "day 6",
-      "film"
-    ],
+    "tags": [],
     "venue": "Kino im Kesselhaus",
     "room": "Kino im Kesselhaus",
     "image": "https://noeku.on.damlivery.com/s/237c9774cbd110e3a121e3d6b742af08/noeku/825264/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
@@ -49,15 +43,13 @@
   },
   {
     "id": "40414",
+    "day": 6,
     "title": "GOD’S ENTERTAINMENT",
     "subtitle": "DU DU DA DA NA NA NAH",
     "date": "So 11 Mai 2025",
     "time": "14:00 Uhr",
     "description": "Auftragswerk",
-    "tags": [
-      "day 6",
-      "art"
-    ],
+    "tags": [],
     "venue": "Messehallen Krems",
     "room": "Zentrale",
     "image": "https://noeku.on.damlivery.com/s/16bd7a47e869abf0da4b7e980435b83d/noeku/823828/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
@@ -65,6 +57,7 @@
   },
   {
     "id": "40423",
+    "day": 6,
     "title": "SEBASTIÁN DÍAZ MORALES",
     "subtitle": "Miles marchan (Thousands March)",
     "date": "So 11 Mai 2025",
@@ -78,6 +71,7 @@
   },
   {
     "id": "39966",
+    "day": 6,
     "title": "AYLA PIERROT ARENDT",
     "subtitle": "Death in Peace",
     "date": "So 11 Mai 2025",
@@ -91,6 +85,7 @@
   },
   {
     "id": "39967",
+    "day": 6,
     "title": "ORIGINAL BOMBER CREW",
     "subtitle": "tReta – a performative invasion",
     "date": "So 11 Mai 2025",
@@ -104,6 +99,7 @@
   },
   {
     "id": "40425",
+    "day": 6,
     "title": "MAGDA SZPECHT",
     "subtitle": "Cyberactivism and Performing Arts",
     "date": "So 11 Mai 2025",
@@ -117,6 +113,7 @@
   },
   {
     "id": "40401",
+    "day": 6,
     "title": "GOD'S ENTERTAINMENT",
     "subtitle": "DU DU DA DA NA NA NAH",
     "date": "So 11 Mai 2025",
@@ -129,20 +126,8 @@
     "link": "https://www.donaufestival.at/de/programm/gods-entertainment/40401"
   },
   {
-    "id": "40416",
-    "title": "MARIA W HORN",
-    "subtitle": "Panoptikon",
-    "date": "So 11 Mai 2025",
-    "time": "17:00 Uhr",
-    "description": "",
-    "tags": [],
-    "venue": "Klangraum Krems Minoritenkirche",
-    "room": "Klangraum Krems Kapitelsaal",
-    "image": "https://noeku.on.damlivery.com/s/d391174f66695027f68170f71615baa9/noeku/826996/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
-    "link": "https://www.donaufestival.at/de/programm/maria-w-horn/40416"
-  },
-  {
     "id": "40411",
+    "day": 6,
     "title": "DEVA SCHUBERT",
     "subtitle": "Silent Spills II",
     "date": "So 11 Mai 2025",
@@ -153,44 +138,5 @@
     "room": "Forum Frohner",
     "image": "https://noeku.on.damlivery.com/s/99f15ff3a56fe19df70f073929f6d0b3/noeku/826501/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.503788:0.0392403",
     "link": "https://www.donaufestival.at/de/programm/deva-schubert/40411"
-  },
-  {
-    "id": "39853",
-    "title": "JEFF MILLS FEAT. JEAN-PHI DARY AND PRABHU EDOUARD",
-    "subtitle": "presents Tomorrow Comes The Harvest",
-    "date": "So 11 Mai 2025",
-    "time": "18:00 Uhr",
-    "description": "",
-    "tags": [],
-    "venue": "Klangraum Krems Minoritenkirche",
-    "room": "Klangraum Krems Minoritenkirche",
-    "image": "https://noeku.on.damlivery.com/s/95f85447fc2b87d9a0f4b42db432777b/noeku/824560/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
-    "link": "https://www.donaufestival.at/de/programm/jeff-mills-feat-jean-phi-dary-and-prabhu-edouard/39853"
-  },
-  {
-    "id": "39824",
-    "title": "COLIN SELF",
-    "subtitle": "Gasp!",
-    "date": "So 11 Mai 2025",
-    "time": "19:30 Uhr",
-    "description": "",
-    "tags": [],
-    "venue": "Klangraum Krems Minoritenkirche",
-    "room": "Klangraum Krems Minoritenkirche",
-    "image": "https://noeku.on.damlivery.com/s/3a2b3e2ea2e3c1983a33c9747ba3cc3a/noeku/826595/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
-    "link": "https://www.donaufestival.at/de/programm/colin-self/39824"
-  },
-  {
-    "id": "39815",
-    "title": "MOOR MOTHER & LONNIE HOLLEY",
-    "subtitle": "",
-    "date": "So 11 Mai 2025",
-    "time": "21:00 Uhr",
-    "description": "",
-    "tags": [],
-    "venue": "Klangraum Krems Minoritenkirche",
-    "room": "Klangraum Krems Minoritenkirche",
-    "image": "https://noeku.on.damlivery.com/s/c7ba3a075531a79fe8c3a8448a767fc6/noeku/826619/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.353015",
-    "link": "https://www.donaufestival.at/de/programm/moor-mother-lonnie-holley/39815"
   }
 ]

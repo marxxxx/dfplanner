@@ -1,15 +1,13 @@
 [
   {
     "id": "40406",
+    "day": 1,
     "title": "DEVA SCHUBERT",
     "subtitle": "Silent Spills II",
     "date": "Fr 2 Mai 2025",
     "time": "17:00 Uhr",
     "description": "Auftragswerk",
-    "tags": [
-      "day 1",
-      "art"
-    ],
+    "tags": [],
     "venue": "Klangraum Krems Minoritenkirche",
     "room": "Forum Frohner",
     "image": "https://noeku.on.damlivery.com/s/99f15ff3a56fe19df70f073929f6d0b3/noeku/826501/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.503788:0.0392403",
@@ -17,15 +15,13 @@
   },
   {
     "id": "39951",
+    "day": 1,
     "title": "GÖKSU KUNAK",
     "subtitle": "Geçmis Masumiyet / Bygone Innocence",
     "date": "Fr 2 Mai 2025",
     "time": "17:00 Uhr",
     "description": "Eröffnungsperformance zur Ausstellung\nÖsterreichische Erstaufführung",
-    "tags": [
-      "day 1",
-      "performance"
-    ],
+    "tags": [],
     "venue": "Kunsthalle Krems",
     "room": "Kunsthalle Krems",
     "image": "https://noeku.on.damlivery.com/s/55a12496983880f3967443e5f1cdded8/noeku/821423/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
@@ -33,15 +29,13 @@
   },
   {
     "id": "40415",
+    "day": 1,
     "title": "MARIA W HORN",
     "subtitle": "Panoptikon",
     "date": "Fr 2 Mai 2025",
     "time": "17:00 Uhr",
     "description": "",
-    "tags": [
-      "day 1",
-      "art"
-    ],
+    "tags": [],
     "venue": "Klangraum Krems Minoritenkirche",
     "room": "Klangraum Krems Kapitelsaal",
     "image": "https://noeku.on.damlivery.com/s/d391174f66695027f68170f71615baa9/noeku/826996/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
@@ -49,6 +43,7 @@
   },
   {
     "id": "40418",
+    "day": 1,
     "title": "SEBASTIÁN DÍAZ MORALES",
     "subtitle": "Miles Marchan (Thousands March)",
     "date": "Fr 2 Mai 2025",
@@ -62,6 +57,7 @@
   },
   {
     "id": "39816",
+    "day": 1,
     "title": "KATHARINA ERNST/MICHAEL BREYER/ATELIER-E",
     "subtitle": "Polylog",
     "date": "Fr 2 Mai 2025",
@@ -75,6 +71,7 @@
   },
   {
     "id": "40412",
+    "day": 1,
     "title": "GOD'S ENTERTAINMENT",
     "subtitle": "DU DU DA DA NA NA NAH",
     "date": "Fr 2 Mai 2025",
@@ -88,6 +85,7 @@
   },
   {
     "id": "39952",
+    "day": 1,
     "title": "EL CONDE DE TORREFIEL",
     "subtitle": "La luz de un lago",
     "date": "Fr 2 Mai 2025",
@@ -101,6 +99,7 @@
   },
   {
     "id": "39694",
+    "day": 1,
     "title": "KEELEY FORSYTH",
     "subtitle": "",
     "date": "Fr 2 Mai 2025",
@@ -114,6 +113,7 @@
   },
   {
     "id": "39825",
+    "day": 1,
     "title": "DERYA YILDIRIM & GRUP ŞIMŞEK",
     "subtitle": "",
     "date": "Fr 2 Mai 2025",
@@ -127,6 +127,7 @@
   },
   {
     "id": "40402",
+    "day": 1,
     "title": "GOD'S ENTERTAINMENT",
     "subtitle": "DU DU DA DA NA NA NAH",
     "date": "Fr 2 Mai 2025",
@@ -137,44 +138,5 @@
     "room": "Zentrale",
     "image": "https://noeku.on.damlivery.com/s/ce05493739332c1d6f85ced306fd0272/noeku/826394/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
     "link": "https://www.donaufestival.at/de/programm/gods-entertainment/40402"
-  },
-  {
-    "id": "39856",
-    "title": "ANNA VON HAUSSWOLFF",
-    "subtitle": "",
-    "date": "Fr 2 Mai 2025",
-    "time": "22:00 Uhr",
-    "description": "",
-    "tags": [],
-    "venue": "Messehallen Krems",
-    "room": "Stadtsaal",
-    "image": "https://noeku.on.damlivery.com/s/dda847a1c4a01a8ae4518774bfe392e3/noeku/824555/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
-    "link": "https://www.donaufestival.at/de/programm/anna-von-hausswolff/39856"
-  },
-  {
-    "id": "39953",
-    "title": "EMAN HUSSEIN",
-    "subtitle": "Smell of Cement",
-    "date": "Fr 2 Mai 2025",
-    "time": "22:00 Uhr",
-    "description": "Österreichische Erstaufführung",
-    "tags": [],
-    "venue": "Messehallen Krems",
-    "room": "Halle 3",
-    "image": "https://noeku.on.damlivery.com/s/82acf54a43c9daa61e163eabe267a6db/noeku/824398/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
-    "link": "https://www.donaufestival.at/de/programm/eman-hussein/39953"
-  },
-  {
-    "id": "40009",
-    "title": "LITURGY",
-    "subtitle": "",
-    "date": "Fr 2 Mai 2025",
-    "time": "23:00 Uhr",
-    "description": "",
-    "tags": [],
-    "venue": "Messehallen Krems",
-    "room": "Halle 2",
-    "image": "https://noeku.on.damlivery.com/s/25e9ee9945a5da6ce7acb88c8894f705/noeku/824569/rm:fill/h:477/w:848/q:90/rs:originalSizePng/f:webp/g:fp:0.5:0.5",
-    "link": "https://www.donaufestival.at/de/programm/liturgy/40009"
   }
 ]
